@@ -1,0 +1,65 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mardaas : Le Retour des Immortels</td>
+        <td>Michael Bielli</td>
+        <td>Fantasy</td>
+        <td>9 juin 2018</td>
+      </tr>
+      <tr>
+        <td>Mardaas : Le Culte Imortis</td>
+        <td>Michael Bielli</td>
+        <td>Fantasy</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>Mardaas : La Fille de l'Aigle</td>
+        <td>Michael Bielli</td>
+        <td>Fantasy</td>
+        <td>2024</td>
+      </tr>
+      <tr>
+        <td>La Guerre du Pavot</td>
+        <td>R.F. Kuang</td>
+        <td>Dark Fantasy</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>Spinning Silver</td>
+        <td>Naomi Novik</td>
+        <td>Fantasy</td>
+        <td>2018</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
+
+** end of index.html **
+

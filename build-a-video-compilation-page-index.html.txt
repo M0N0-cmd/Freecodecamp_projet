@@ -1,0 +1,38 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+<body>
+    <main>
+        <h1>Video Compilation</h1>
+        <p>Compilation des meilleurs vidéos de tous les temps</p>
+        <section>
+            <h2>La vidéo du chat qui danse !</h2>
+            <p>Voici la démonstration d'un chat qui sait comment bouger ! </p>
+            <iframe 
+            width="500"
+            height="300"
+            title="A swing cat"
+            src="https://www.youtube.com/embed/7GSgVQHHp2A">
+            </iframe>
+        </section>
+        <section>
+            <h2>La vidéo des chats et des chiens les plus droles du web !</h2>
+            <p>Voici la démonstration de chat qui savent comment faire rire leurs humains</p>
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/c5NfVEL_yBc" title="277 Hilarious Cats and Dogs Moments 2025😼🐶Try Not To Laugh😜" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h2>La vidéos des chats qui parlent anglais !</h2>
+            <p>Et enfin la vidéo des chats qui savent bien s'exprimer</p>
+            <iframe width="500" height="300" src="https://www.youtube.com/embed/F5A3RiYZdxQ" title="These Cats Speak English Better Than Hooman!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+</body>
+</html>
+
+index.html 
+
