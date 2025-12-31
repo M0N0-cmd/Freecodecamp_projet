@@ -1,0 +1,36 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+  <h1>Mytube</h1>
+  <section>
+    <h2>Olafur Arnalds-Near Light</h2>
+    <audio controls aria-label="A song of Olafur Arnalds here">
+      <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mp3">
+    </audio>
+  </section>
+  <section>
+    <h2>Olafur Arnalds-This Place Was A Shelter</h2>
+    <video controls width="600" height="400" aria-label="A song of Olfafur Arnalds here">
+      <source src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.mp4" type="video/mp4">
+      <track src="https://cdn.freecodecamp.org/curriculum/labs/what-is-the-map-method-and-how-does-it-work.vtt" kind="mp4" srclang="en" label="english">
+    </video>
+  </section>
+  <section>
+    <h2>Transcript</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla enim porta vehicula maximus. Nullam sed lorem non enim feugiat posuere non in tortor. Praesent sed mi pulvinar, dapibus metus non, mattis justo. Praesent convallis pellentesque nisi id maximus. Duis ultricies porttitor neque at porta. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus non metus in leo blandit consectetur. Quisque volutpat sagittis orci. Cras in gravida metus. Curabitur vehicula pellentesque augue, quis malesuada eros suscipit a. In eleifend volutpat urna, quis venenatis turpis consectetur id. Ut id dolor porttitor, semper sapien a, molestie ante. Donec nec dictum libero, vel commodo lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+  </section>
+
+</body>
+
+</html>
+
+** end of index.html **
+
