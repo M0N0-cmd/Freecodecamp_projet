@@ -1,0 +1,107 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>My To do List</h1>
+    <ul class="todo-list">
+        <li>
+            <label for="choice1"> Check your Channel
+            <input type="checkbox" id="choice1">
+            </label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" href="https://www.youtube.com" target="_blank">Youtube</a></li>
+            </ul>
+        </li>
+        <li>
+            <label for="choice1"> Watch an video
+            <input type="checkbox" id="choice1">
+            </label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" href="https://www.youtube.com" target="_blank">Youtube</a></li>
+            </ul>
+        </li>
+        <li>
+            <label for="choice1"> Sub you
+            <input type="checkbox" id="choice1">
+            </label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" href="https://www.youtube.com" target="_blank">Youtube</a></li>
+            </ul>
+        </li>
+        <li>
+            <label for="choice1"> Make an video
+            <input type="checkbox" id="choice1">
+            </label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" href="https://www.youtube.com" target="_blank">Youtube</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.sub-item-link {
+  text-decoration: none;
+}
+
+a:link {
+  color: purple;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:focus {
+  color: blue;
+  outline: 2px solid blue;
+}
+
+a:active {
+  color: red;
+}
+
+.todo-list {
+  list-style-position: inside;
+  text-align:center;
+  list-style-type: square;
+  color: white;
+}
+
+.sub-item {
+  list-style-type: disc;
+}
+
+h1 {
+  text-align: center;
+  color: white; 
+}
+
+body {
+  background-color:black;
+}
+
+h1,.todo-list {
+  border: 1px solid
+}
+
+** end of styles.css **
+
