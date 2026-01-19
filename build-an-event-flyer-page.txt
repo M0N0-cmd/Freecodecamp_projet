@@ -1,0 +1,58 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build an Event Flyer Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+ 
+<body>
+ <header>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/event.jpg" alt="string of brightly colored triangular pennants">
+    <h1>Event Cook Festival</h1>
+    <p>Responsive Design</p>
+  </header>
+  <hr>
+  <main>
+    <section>
+      <h2>Ingredient</h2>
+      <ul>
+        <li>Patatoes</li>
+        <li>oil</li>
+      </ul>
+    </section>
+    <hr>
+    <section>
+      <h2>Kitchen Utensil</h2>
+      <ul>
+        <li>Knife</li>
+        <li>frying pan</li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 30vw;
+  min-height: calc(100vh - 100px)
+}
+
+hr, section{
+  width: 100%;
+}
+
+** end of styles.css **
+
